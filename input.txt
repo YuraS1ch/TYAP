@@ -1,0 +1,20 @@
+unsigned int x = 10;
+int y = 0xFF;
+int z = 07;
+
+int foo(){
+    int i = 0;
+    while(i < 100){
+	i++;
+	i--;
+	i = 6+4-2%4*8;
+	i << 1;
+    }
+    return i;
+}
+
+int main(){
+    unsigned int = '\b';
+    return 0;
+}
+�
