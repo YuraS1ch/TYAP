@@ -175,7 +175,7 @@ start:
 void TScaner::GetData(const char * FileName)
 {
         char aa;
-        string FilePath = "../scaner/";
+        string FilePath = "../scaner/input/";
         FilePath += FileName;
         FILE * in = fopen(FilePath.c_str(),"r");
         if (!in) {
